@@ -1,0 +1,16 @@
+#!/bin/bash --login
+
+#SBATCH --job-name=sum_of_powers            # Job name
+
+#SBATCH --time=00:30:00                 # Max execution time (hh:mm:ss)
+
+#SBATCH --ntasks=1                      # Number of tasks (1 process)
+
+#SBATCH --cpus-per-task=4               # Number of CPU cores allocated
+
+#SBATCH --mem=1G                        # Memory allocation
+
+
+# Run the Python script
+
+python sum_of_squares.py 
