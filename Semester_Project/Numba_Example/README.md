@@ -16,7 +16,7 @@ Numba is a Just-In-Time (meaning your code is compiled during execution rather t
 4. Using your text editor of choice, navigate to the sum_of_squares example file (`vim sum_of_powers.py`). Take a quick look at the code and comments to get an idea of what the example is doing.
 5. Use the command `python sum_of_powers.py` to execute the file. You should be able to see the time it took the file to execute. Take mental note of this, now we can compare the time it takes to execute with Numba!
 6. Similar to step 3, navigate to the `sop_Numba.py` file, Take a look at the code and the comments to gain a better understanding of how to integrate Numabe into your Python code.
-7. Using the same command as step 4 (replacing the file name with `sop_Numba.py`), execute the code with Numba integration and compare the execution times. You should see a large speed-up!
+7. Using the same command as step 5 (replacing the file name with `sop_Numba.py`), execute the code with Numba integration and compare the execution times. You should see a large speed-up!
 8. To get the code running on the batch scheduler, first navigate to the `sob_Numa.sb` file as above, and take a look at the comments to understand what the SLURM submission script is doing.
 9. Next, run the command `sbatch sob_Numba.sb` to submit the job script.
 
