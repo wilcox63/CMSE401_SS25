@@ -1,0 +1,13 @@
+PASS (GNU+OpenMPI)
+Lmod has detected the following error: The following module(s) could not be
+loaded: "intel/2021a"
+
+Please check the spelling or version number. Also try "module spider ..."
+
+It is also possible that the module is not available for this node type.
+See https://docs.icer.msu.edu/available_software/overview/ for details. 
+
+
+FAIL (Intel+iMPI)
+FAIL (Intel+OpenMPI)
+PASS (GNU+MPICH)
