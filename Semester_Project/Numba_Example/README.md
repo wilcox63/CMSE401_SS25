@@ -19,3 +19,6 @@ Numba is a Just-In-Time (meaning your code is compiled during execution rather t
 7. Using the same command as step 4 (replacing the file name with `sop_Numba.py`), execute the code with Numba integration and compare the execution times. You should see a large speed-up!
 8. To get the code running on the batch scheduler, first navigate to the `sob_Numa.sb` file as above, and take a look at the comments to understand what the SLURM submission script is doing.
 9. Next, run the command `sbatch sob_Numba.sb` to submit the job script.
+
+## References
+
