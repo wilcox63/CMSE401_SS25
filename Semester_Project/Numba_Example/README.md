@@ -21,4 +21,5 @@ Numba is a Just-In-Time (meaning your code is compiled during execution rather t
 9. Next, run the command `sbatch sob_Numba.sb` to submit the job script.
 
 ## References
-
+- [Sum of Squares Example](https://www.geeksforgeeks.org/python-program-for-sum-of-squares-of-first-n-natural-numbers/#) - Please note this example was used as a reference and I updated it to better fit the goal of this example.
+- [Numba Documentation](https://numba.pydata.org/)
