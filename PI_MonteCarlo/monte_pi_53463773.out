@@ -1,0 +1,33 @@
+Running with 1 process
+Using 10000000 darts
+Approximated value of pi: 3.1416404000000000
+Error: 0.0000477464102069
+Execution time: 0.381057 seconds
+
+--- Benchmark Results ---
+Number of processes: 1
+Total darts: 10000000
+Darts per process: 10000000
+Time taken: 0.381057 seconds
+Running with 2 processes
+Using 10000000 darts
+Approximated value of pi: 3.1418052000000003
+Error: 0.0002125464102072
+Execution time: 0.191250 seconds
+
+--- Benchmark Results ---
+Number of processes: 2
+Total darts: 10000000
+Darts per process: 5000000
+Time taken: 0.191250 seconds
+Running with 4 processes
+Using 10000000 darts
+Approximated value of pi: 3.1417732000000003
+Error: 0.0001805464102071
+Execution time: 0.095535 seconds
+
+--- Benchmark Results ---
+Number of processes: 4
+Total darts: 10000000
+Darts per process: 2500000
+Time taken: 0.095535 seconds
