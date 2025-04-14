@@ -1,4 +1,4 @@
-all: revGOL revGOL-mpi gol
+all: revGOL revGOL_mpi gol
 
 MCC:= mpicc
 
@@ -40,15 +40,15 @@ gol: gameoflife.o png_util.o
 
 
 
-reverseGOL-mpi.o: reverseGOL-mpi.$(EXT)
+reverseGOL_mpi.o: reverseGOL_mpi.$(EXT)
 
-	$(MCC) -c reverseGOL-mpi.c
+	$(MCC) -c reverseGOL_mpi.c
 
 
 
-revGOL-mpi: reverseGOL-mpi.o png_util.o
+revGOL_mpi: reverseGOL_mpi.o png_util.o
 
-	$(MCC) -o revGOL-mpi reverseGOL-mpi.o png_util.o $(FLAGS)
+	$(MCC) -o revGOL_mpi reverseGOL_mpi.o png_util.o $(FLAGS)
 
 
 
@@ -56,7 +56,7 @@ test: revGOL data.txt
 
 	./revGOL data.txt
 
-	./revGOL-mpi data.txt
+	./revGOL_mpi data.txt
 
 
 
@@ -68,4 +68,4 @@ clean:
 
 	rm revGOL
 
-	rm revGOL-mpi
+	rm revGOL_mpi

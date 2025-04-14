@@ -16,4 +16,4 @@
 
 module load OpenMPI
 
-mpirun -np 50 ./revGOL-mpi cmse2.txt > mpi_result.txt
+mpirun -np 50 ./revGOL_mpi cmse2.txt > mpi_result.txt
