@@ -1,0 +1,17 @@
+#!/bin/bash --login
+
+#SBATCH --job-name=pp_jobarray
+
+#SBATCH --array=1-50
+
+#SBATCH --time=00:32:00
+
+#SBATCH --mem=2GB
+
+#SBATCH --output=pp_output_%A_%a.txt
+
+
+
+SEED=$SLURM_ARRAY_TASK_ID
+
+./revGOL cmse2.txt $SEED > result_$SEED.txt

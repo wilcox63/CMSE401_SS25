@@ -113,7 +113,7 @@ char * readplate(char * filename, int *n) {
         plate = (char *) calloc((N+2)*(N*2),sizeof(char)); 
         char line[N];
         for(int i = 1; i <= N; i++){
-                fscanf(fp, "%s", &line);
+                fscanf(fp, "%s", line);
                 for(int j = 0; j < N; j++){
                     int index = i * (N + 2) + j + 1;
                     plate[index] = (line[j] == '1');
